@@ -11,7 +11,7 @@
 
 | Home & Input | Slot Machine Animation | Search & History |
 | :---: | :---: | :---: |
-| ![Input Screen](https://via.placeholder.com/250x500.png?text=Input+Screen) | ![Animation](https://via.placeholder.com/250x500.png?text=Slot+Machine) | ![History](https://via.placeholder.com/250x500.png?text=Search+History) |
+| ![Input Screen](https://github.com/Create-cloud/decidr/blob/main/screenshot_1.png?raw=true) | ![Animation](https://github.com/Create-cloud/decidr/blob/main/screenshot_2.png?raw=true) | ![History](https://github.com/Create-cloud/decidr/blob/main/screenshot_3.png?raw=true) |
 | *Enter your dilemma and options* | *Watch the options shuffle before deciding* | *Search, export, or clear your history* |
 
 ## ✨ Features
