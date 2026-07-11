@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎲 Decidr: The Mini Decision Maker
 
 **Decidr** is a minimalist, offline-first Android application designed to cure decision fatigue. Simply input your options, and let Decidr make the choice for you with a fun "slot machine" animation. It keeps a beautiful, searchable local history of all your past decisions.
@@ -38,3 +39,7 @@ Decidr strictly follows the **MVVM (Model-View-ViewModel)** architectural patter
 [ Data Layer (DecisionRepository) ] 
           ↕ (Abstracts Data Source / Background Threading)
 [ Local Database (Room DAO / Entities) ]
+=======
+# decidr
+A minimalist Android app for making random decisions
+>>>>>>> 99e729404351a985eca5550e7bc50175857a151a
