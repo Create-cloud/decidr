@@ -30,7 +30,7 @@
 
 Decidr strictly follows the **MVVM (Model-View-ViewModel)** architectural pattern to ensure a clean separation of concerns.
 
-```text
+```
 [ UI Layer (Activity / XML / ViewBinding) ] 
           ↕ (Observes LiveData / Calls Methods)
 [ ViewModel Layer (MainViewModel) ] 
@@ -38,3 +38,52 @@ Decidr strictly follows the **MVVM (Model-View-ViewModel)** architectural patter
 [ Data Layer (DecisionRepository) ] 
           ↕ (Abstracts Data Source / Background Threading)
 [ Local Database (Room DAO / Entities) ]
+```
+
+### Core Technologies
+*   **Language:** Java
+*   **UI:** XML Layouts, ViewBinding, Material Components 3
+*   **Architecture:** MVVM (Model-View-ViewModel)
+*   **Local Storage:** Room Persistence Library (SQLite)
+*   **Async/Threading:** ExecutorService (for Room background threads & File I/O)
+*   **Reactivity:** AndroidX Lifecycle (LiveData, ViewModel)
+*   **System Integration:** Android Intents (Share), Storage Access Framework (Export)
+
+## 🚀 Setup & Installation
+
+### Prerequisites
+*   Android Studio (Hedgehog, Iguana, or newer recommended)
+*   JDK 11 or higher
+*   Android SDK (Min SDK 24 / Android 7.0)
+
+### Steps to Run
+1.  **Clone the repository:**
+    ```
+    git clone https://github.com/Create-cloud/decidr.git
+    cd decidr
+    ```
+2.  **Open in Android Studio:**
+    *   Open Android Studio → `File` → `Open` → Select the `decidr` folder.
+3.  **Sync Gradle:**
+    *   Allow Android Studio to download dependencies and sync the project.
+4.  **Run the App:**
+    *   Connect an Android device (with USB debugging enabled) or start an Android Emulator.
+    *   Click the green **Run ▶️** button in the toolbar.
+
+## 📂 Project Structure
+
+```
+app/src/main/java/com/decidr/app/
+├── data/               # Data Layer
+│   ├── AppDatabase.java
+│   ├── DecisionDao.java
+│   ├── DecisionEntry.java
+│   └── DecisionRepository.java
+├── MainActivity.java   # UI Layer (Activity)
+├── MainViewModel.java  # Presentation Layer (ViewModel)
+└── HistoryAdapter.java # RecyclerView Adapter
+```
+
+## 📝 License
+
+This project is open-source and available under the [MIT License](LICENSE).
