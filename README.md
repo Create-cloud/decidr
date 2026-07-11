@@ -1,4 +1,3 @@
-
 # 🎲 Decidr: The Mini Decision Maker
 
 **Decidr** is a minimalist, offline-first Android application designed to cure decision fatigue. Simply input your options, and let Decidr make the choice for you with a fun "slot machine" animation. It keeps a beautiful, searchable local history of all your past decisions.
@@ -10,10 +9,10 @@
 
 ## 📸 Screenshots
 
-|                Home & Input                | Slot Machine Animation | Search & History |
-|:------------------------------------------:| :---: | :---: |
-| ![Input Screen](https://github.com/Create-cloud/decidr/blob/main/screenshot_1.png?raw=true) | ![Animation](https://github.com/Create-cloud/decidr/blob/main/screenshot_2.png?raw=true) | ![History](https://github.com/Create-cloud/decidr/blob/main/screenshot_3.png?raw=true) |
-|      *Enter your dilemma and options*      | *Watch the options shuffle before deciding* | *Search, export, or clear your history* |
+| Home & Input | Slot Machine Animation | Search & History |
+| :---: | :---: | :---: |
+| ![Input Screen](https://via.placeholder.com/250x500.png?text=Input+Screen) | ![Animation](https://via.placeholder.com/250x500.png?text=Slot+Machine) | ![History](https://via.placeholder.com/250x500.png?text=Search+History) |
+| *Enter your dilemma and options* | *Watch the options shuffle before deciding* | *Search, export, or clear your history* |
 
 ## ✨ Features
 
@@ -39,6 +38,3 @@ Decidr strictly follows the **MVVM (Model-View-ViewModel)** architectural patter
 [ Data Layer (DecisionRepository) ] 
           ↕ (Abstracts Data Source / Background Threading)
 [ Local Database (Room DAO / Entities) ]
-=======
-# decidr
-A minimalist Android app for making random decisions
